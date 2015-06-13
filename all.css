@@ -19,29 +19,40 @@ h1 {
 /* head */
 .head {
   margin-bottom: 37px;
+  float: left;
 }
-
-.share {
+.head .logo {
+  float: left;
+  padding-left: 30px;
+}
+.head .logo a {
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  width: 171px;
+  height: 81px;
+  display: block;
+  text-indent: -9999px;
+}
+.head .share {
   float: right;
   margin-bottom: 40px;
 }
-.share li {
+.head .share li {
   display: inline;
   padding-right: 9px;
 }
-.share a:hover {
+.head .share a:hover {
   opacity: 0.3;
 }
-
-.menu {
+.head .menu {
   float: right;
-  clear: both;
+  padding-right: 30px;
 }
-.menu li {
+.head .menu li {
   display: inline;
   padding-left: 50px;
 }
-.menu a:hover {
+.head .menu a:hover {
   color: #01a5ca;
 }
 
@@ -50,11 +61,12 @@ h1 {
   -moz-box-shadow: 0 0 10px #777777;
   -webkit-box-shadow: 0 0 10px #777777;
   box-shadow: 0 0 10px #777777;
-  height: 417px;
   margin-bottom: 47px;
+  float: left;
 }
 .slider img {
   float: left;
+  clear: both;
 }
 .slider div {
   float: right;
@@ -99,7 +111,6 @@ h1 {
   -webkit-box-shadow: 0 0 10px #777777;
   box-shadow: 0 0 10px #777777;
   font-size: 18px;
-  height: 150px;
   float: left;
   margin-bottom: 47px;
 }
@@ -116,7 +127,6 @@ h1 {
   box-shadow: 0 0 10px #777777;
   padding: 35px 50px;
   font-size: 18px;
-  height: 400px;
   float: left;
   margin-bottom: 40px;
 }
@@ -124,12 +134,14 @@ h1 {
 .leftnews {
   float: left;
   width: 550px;
-  height: 210px;
   margin-right: 50px;
 }
 .leftnews h2 {
   font-size: 30px;
   margin-bottom: 20px;
+}
+.leftnews h2 span {
+  margin-right: 10px;
 }
 .leftnews li {
   height: 150px;
@@ -145,6 +157,10 @@ h1 {
   float: right;
   width: 310px;
 }
+.leftnews .newsinfo h3 {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
 .leftnews .newsinfo p {
   margin-bottom: 10px;
   line-height: 21px;
@@ -158,6 +174,9 @@ h1 {
 .rightnews h2 {
   font-size: 30px;
   margin-bottom: 20px;
+}
+.rightnews h2 span {
+  margin-right: 10px;
 }
 .rightnews ul {
   margin-bottom: 33px;
